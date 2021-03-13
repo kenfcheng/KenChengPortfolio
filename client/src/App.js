@@ -2,6 +2,7 @@ import React from "react";
 import { Parallax } from "react-parallax";
 import starsBG from "./background.jpg";
 import Navbar from "../src/containers/navbar/navbar.js";
+import Footer from "../src/containers/footer/footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       >
         {" "}
         <Navbar />
+        <Footer />
       </Parallax>
     </div>
   );
