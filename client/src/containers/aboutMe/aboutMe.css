@@ -1,0 +1,19 @@
+.container {
+  align-self: center;
+  margin-left: 500px;
+  height: 400px;
+  width: 500px;
+  background: #39344e;
+  mix-blend-mode: screen;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-white-text {
+  color: white;
+}
+
+.container-white-text {
+  color: white;
+}
