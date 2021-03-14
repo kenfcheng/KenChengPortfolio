@@ -1,8 +1,18 @@
+/*
 .App {
   background: url(./background.jpg);
   background-size: cover;
 }
 
+
 .background {
   background-size: cover;
+}
+*/
+
+.Parallax {
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  align-items: center;
 }
