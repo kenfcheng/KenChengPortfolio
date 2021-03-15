@@ -1,8 +1,9 @@
 import React from "react";
+// GlobalStyle holds the background photo in place while moving all the other objects when scrolling.
 import { createGlobalStyle } from "styled-components";
 import { Parallax } from "react-parallax";
-// import { Parallax } from "./components/styled/styled";
-import starsBG from "./img/background.jpg";
+// import { Parallax } from "../src/components/styled/styled/styled";
+// import starsBG from "./img/background.jpg";
 import Navbar from "../src/containers/navbar/navbar.js";
 import AboutMe from "../src/containers/aboutMe/aboutMe";
 import Footer from "../src/containers/footer/footer";
@@ -21,8 +22,9 @@ const GlobalStyle = createGlobalStyle`
 const App = () => (
   <>
     <GlobalStyle />
-    <Parallax className="Parallax" bgImage={starsBG}>
+    <Parallax className="Parallax">
       <Navbar />
+      <br></br>
       <AboutMe />
       <Footer />
     </Parallax>

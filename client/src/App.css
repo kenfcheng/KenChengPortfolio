@@ -11,8 +11,11 @@
 */
 
 .Parallax {
+  background: url("./img/background.jpg") center;
   background-size: cover;
   background-attachment: fixed;
   width: 100vw;
+  height: 100vh;
   align-items: center;
+  text-align: center;
 }

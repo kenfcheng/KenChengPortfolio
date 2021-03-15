@@ -2,7 +2,9 @@
   background-color: darkcyan;
   height: 75px;
   left: 0px;
-  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  position: fixed;
 
   background: #39344e;
   mix-blend-mode: screen;

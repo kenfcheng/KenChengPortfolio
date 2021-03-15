@@ -1,10 +1,11 @@
 // This should export these styling globally throughout the app.
 
 import styled from "styled-components";
+// import background from "../styled/background.jpg";
 
 /*
 export const Parallax = styled.div`
-  background: url("./background.jpg") center;
+  background: url(${background}) center;
   background-size: cover;
   background-attachment: fixed;
   width: 100vw;
