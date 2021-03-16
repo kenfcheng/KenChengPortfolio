@@ -5,8 +5,11 @@
 .container-white-text {
   color: white;
 }
-
+/*
 .container {
   align-content: inherit;
   position: center;
+  padding: 0px;
+  margin: 0px;
 }
+*/

@@ -1,6 +1,5 @@
 import React from 'react';
  import {Container, Row, Col} from 'react-bootstrap';
-
 import photo from "../../img/kenPhoto.jpg";
 import "./aboutMe.css";
 
@@ -8,18 +7,19 @@ import "./aboutMe.css";
 function aboutMe() {
     return (
         
-    <Container className='container'>
-    <Row  className="justify-content-md-center">
+    <div className='container-fluid' >
+    <div className='row justify-content-start'>
         
-       <Col md="6">
+       <div className='col'>
           <img
             src={photo}
             alt="KenPhoto"
             style={{ height: 375, width: 500 }}
+            fluid
           />
-        </Col>
+        </div>
 
-        <Col md="6" style={{height: 375, width: 500}}>
+        <div className='col' style={{height: 375, width: 500}}>
           <h5 className="header-white-text">A Brief History</h5>
           <p className="container-white-text">
             A North Carolina native, I got my Bachelor's degree in English
@@ -31,9 +31,9 @@ function aboutMe() {
             that as an opportunity for a career change and decided to go down
             the path of becoming a full-stack developer.
           </p>
-          </Col>
-      </Row>
-      </Container>
+          </div>
+      </div>
+      </div>
    
      
     

@@ -7,6 +7,7 @@ import { Parallax } from "react-parallax";
 import Navbar from "../src/containers/navbar/navbar.js";
 import Header from "../src/containers/header/header";
 import AboutMe from "../src/containers/aboutMe/aboutMe";
+import Description from "../src/containers/description/description";
 import Footer from "../src/containers/footer/footer";
 
 import "./App.css";
@@ -24,12 +25,17 @@ const GlobalStyle = createGlobalStyle`
 const App = () => (
   <>
     <GlobalStyle />
-    <Parallax className="Parallax">
-      <Navbar />
 
+    <Parallax className="container" fluid>
+      <Navbar />
+      <br></br>
       <Header />
       <br></br>
       <AboutMe />
+      <br></br>
+      <Description />
+      <br></br>
+      <br></br>
       <Footer />
     </Parallax>
   </>
