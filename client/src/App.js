@@ -5,8 +5,10 @@ import { Parallax } from "react-parallax";
 // import { Parallax } from "../src/components/styled/styled/styled";
 // import starsBG from "./img/background.jpg";
 import Navbar from "../src/containers/navbar/navbar.js";
+import Header from "../src/containers/header/header";
 import AboutMe from "../src/containers/aboutMe/aboutMe";
 import Footer from "../src/containers/footer/footer";
+
 import "./App.css";
 
 const GlobalStyle = createGlobalStyle`
@@ -24,6 +26,8 @@ const App = () => (
     <GlobalStyle />
     <Parallax className="Parallax">
       <Navbar />
+
+      <Header />
       <br></br>
       <AboutMe />
       <Footer />

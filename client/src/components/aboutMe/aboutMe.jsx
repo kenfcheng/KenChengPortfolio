@@ -1,8 +1,6 @@
 import React from 'react';
  import {Container, Row, Col} from 'react-bootstrap';
-// import CardGroup from 'react-bootstrap/CardGroup';
-// import CardColumns from 'react-bootstrap/CardColumns'
-// import CardDeck from 'react-bootstrap/CardDeck'
+
 import photo from "../../img/kenPhoto.jpg";
 import "./aboutMe.css";
 
@@ -10,10 +8,10 @@ import "./aboutMe.css";
 function aboutMe() {
     return (
         
-    <Container>
-    <Row>
+    <Container className='container'>
+    <Row  className="justify-content-md-center">
         
-       <Col>
+       <Col md="6">
           <img
             src={photo}
             alt="KenPhoto"
@@ -21,7 +19,7 @@ function aboutMe() {
           />
         </Col>
 
-        <Col>
+        <Col md="6" style={{height: 375, width: 500}}>
           <h5 className="header-white-text">A Brief History</h5>
           <p className="container-white-text">
             A North Carolina native, I got my Bachelor's degree in English

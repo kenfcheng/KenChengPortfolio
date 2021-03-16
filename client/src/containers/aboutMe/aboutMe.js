@@ -4,9 +4,9 @@ import AboutMe from "../../components/aboutMe/aboutMe";
 
 function aboutMe() {
   return (
-    <div className="container">
+    <>
       <AboutMe />
-    </div>
+    </>
   );
 }
 
